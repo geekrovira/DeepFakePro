@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Creación de Deepfakes con IA - Aprende de Forma Responsable</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- Chosen Palette: Calm Neutrals (Base: bg-slate-100, Text: slate-800/900, Accent: indigo-600) -->
+    <!-- Application Structure Plan: A classic marketing landing page structure. It starts with a compelling hero section to immediately grab attention, followed by sections that address the "problem" and "solution" (why learn deepfakes responsibly), detail the course content (modules), highlight practical tools, emphasize ethical considerations, and conclude with a strong call to action. This linear flow is designed to guide the user through the benefits and details of the course, building trust and encouraging enrollment. -->
+    <!-- Visualization & Content Choices: The content is primarily textual, structured into clear, digestible blocks. Headings, paragraphs, and lists are used to convey information. Interactive elements are limited to calls-to-action (buttons) and smooth scrolling for navigation, as the goal is to sell a course, not to present a data report. No charts or complex data visualizations are needed for this marketing objective. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        .section-heading {
+            position: relative;
+            display: inline-block;
+            padding-bottom: 0.5rem;
+            margin-bottom: 2rem;
+        }
+        .section-heading::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 50%;
+            height: 4px;
+            background-color: #4f46e5; /* indigo-600 */
+            border-radius: 9999px;
+        }
+    </style>
+</head>
+<body class="bg-slate-100 text-slate-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm py-4">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <span class="text-2xl font-extrabold text-indigo-600">DeepFakePro</span>
+                <span class="text-lg font-medium text-slate-700">Academy</span>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#inicio" class="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Inicio</a>
+                <a href="#aprenderas" class="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Qué Aprenderás</a>
+                <a href="#etica" class="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Ética y Riesgos</a>
+                <a href="#inscripcion" class="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Inscripción</a>
+            </nav>
+            <a href="#inscripcion" class="hidden md:block bg-indigo-600 text-white font-bold py-2 px-5 rounded-lg hover:bg-indigo-700 transition-colors">
+                Inscríbete Ahora
+            </a>
+            <!-- Mobile Menu Button - Placeholder for actual mobile menu -->
+            <button class="md:hidden text-slate-600 hover:text-indigo-600 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="relative bg-gradient-to-br from-indigo-700 to-slate-900 text-white py-20 md:py-32 overflow-hidden">
+        <div class="absolute inset-0 z-0 opacity-10">
+            <!--  -->
+            <img src="https://placehold.co/1920x1080/000000/FFFFFF?text=Fondo+Abstracto+IA" alt="Fondo Abstracto de IA" class="w-full h-full object-cover">
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
+            <div class="text-center md:text-left md:w-1/2">
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
+                    Domina la Creación de <span class="text-indigo-300">Deepfakes con IA</span> de Forma Responsable
+                </h1>
+                <p class="text-lg sm:text-xl text-indigo-100 mb-8 max-w-xl mx-auto md:mx-0">
+                    Aprende desde cero a generar videos, imágenes y audios sintéticos realistas utilizando las últimas herramientas de Inteligencia Artificial. ¡Sin experiencia previa necesaria!
+                </p>
+                <a href="#inscripcion" class="bg-indigo-400 text-slate-900 font-bold py-3 px-8 rounded-lg text-lg hover:bg-indigo-300 transition-colors shadow-lg inline-block">
+                    Inscríbete y Empieza Hoy
+                </a>
+            </div>
+            <div class="md:w-1/2 flex justify-center md:justify-end mt-8 md:mt-0">
+                <!-- Placeholder for a captivating course preview video or image -->
+                <div class="relative w-full max-w-md aspect-video bg-slate-800 rounded-xl shadow-2xl overflow-hidden flex items-center justify-center">
+                    <svg class="w-20 h-20 text-indigo-400 opacity-70" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
+                    <span class="absolute text-slate-300 text-sm">Video de Introducción al Curso</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem/Solution Section -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mb-12 section-heading mx-auto">
+                ¿Por qué aprender a crear Deepfakes?
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 text-left">
+                <div>
+                    <h3 class="text-2xl font-semibold text-slate-900 mb-4">El Poder de la IA Generativa</h3>
+                    <p class="text-slate-700 leading-relaxed">
+                        La Inteligencia Artificial está transformando industrias enteras, y la creación de contenido sintético es una de sus aplicaciones más fascinantes. Desde el entretenimiento hasta la educación, los deepfakes abren un mundo de posibilidades creativas. Sin embargo, este poder conlleva una gran responsabilidad.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold text-slate-900 mb-4">Crea, Innova y Comprende</h3>
+                    <p class="text-slate-700 leading-relaxed">
+                        Nuestro curso te equipará con las habilidades técnicas para dominar esta tecnología, pero también te brindará una comprensión profunda de sus implicaciones éticas. Aprenderás a crear deepfakes de alta calidad mientras desarrollas un criterio para su uso responsable, convirtiéndote en un profesional consciente y capacitado.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What You'll Learn Section (Modules) -->
+    <section id="aprenderas" class="py-16 md:py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mb-12 section-heading mx-auto">
+                Lo que Aprenderás en el Curso
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Module 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow flex flex-col items-center text-center">
+                    <div class="bg-indigo-100 text-indigo-600 rounded-full p-3 mb-4">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-slate-900 mb-3">Introducción al Mundo de los Deepfakes</h3>
+                    <p class="text-slate-700">
+                        Conceptos clave, historia y evolución de los deepfakes. Comprende su funcionamiento y los diferentes tipos que existen.
+                    </p>
+                </div>
+                <!-- Module 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow flex flex-col items-center text-center">
+                    <div class="bg-indigo-100 text-indigo-600 rounded-full p-3 mb-4">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.a1.724 1.724 0 002.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-slate-900 mb-3">Preparación y Herramientas</h3>
+                    <p class="text-slate-700">
+                        Configura tu entorno, comprende el hardware necesario y familiarízate con las herramientas clave como DeepFaceLab.
+                    </p>
+                </div>
+                <!-- Module 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow flex flex-col items-center text-center">
+                    <div class="bg-indigo-100 text-indigo-600 rounded-full p-3 mb-4">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-1.25-3M15 10V5.25A2.25 2.25 0 0012.75 3h-1.5A2.25 2.25 0 009 5.25V10M16.5 10h.008v.008h-.008V10zm.008 6.75h-.008v.008h.008v-.008zm-3.75 0h.008v.008h-.008v-.008zm-3.75 0h.008v.008h-.008v-.008zm-3.75 0h.008v.008h-.008v-.008zM10 10h.008v.008H10V10zm.008 6.75H10v.008h.008v-.008zm-3.75 0H6v.008h.008v-.008z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-slate-900 mb-3">Creación Práctica de Deepfakes</h3>
+                    <p class="text-slate-700">
+                        Guía paso a paso para generar tu primer deepfake, desde la preparación de datos hasta la exportación final.
+                    </p>
+                </div>
+                <!-- Module 4 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow flex flex-col items-center text-center">
+                    <div class="bg-indigo-100 text-indigo-600 rounded-full p-3 mb-4">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.007 12.007 0 002.944 12c.071 1.05.234 2.056.479 3.031M12 21.008V12m0 0l-3.249-3.249m3.249 3.249l3.249-3.249m-3.249 3.249V21.008"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-slate-900 mb-3">Aplicaciones, Riesgos y Ética</h3>
+                    <p class="text-slate-700">
+                        Explora los usos positivos, comprende los riesgos y aprende a detectar deepfakes para un uso responsable.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ethical Considerations Section -->
+    <section id="etica" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mb-12 section-heading mx-auto">
+                Nuestro Compromiso: Ética y Responsabilidad
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 text-left">
+                <div>
+                    <h3 class="text-2xl font-semibold text-slate-900 mb-4">Entendiendo los Riesgos</h3>
+                    <p class="text-slate-700 leading-relaxed mb-4">
+                        La tecnología deepfake, aunque poderosa, conlleva riesgos serios como la desinformación, el fraude y la violación de la privacidad. Nuestro curso aborda estos temas de frente, enseñándote a reconocer y mitigar estas amenazas.
+                    </p>
+                    <ul class="list-disc list-inside text-slate-700 space-y-2">
+                        <li>Violación de la privacidad y difamación.</li>
+                        <li>Fraude de identidad y financiero.</li>
+                        <li>Desinformación y manipulación política.</li>
+                        <li>Contenido explícito no consentido.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold text-slate-900 mb-4">Promoviendo el Uso Responsable</h3>
+                    <p class="text-slate-700 leading-relaxed mb-4">
+                        Creemos firmemente en el uso ético de la IA. Este curso no solo te enseña a crear, sino también a:
+                    </p>
+                    <ul class="list-disc list-inside text-slate-700 space-y-2">
+                        <li>Obtener consentimiento explícito.</li>
+                        <li>Comprender marcos legales y regulaciones.</li>
+                        <li>Desarrollar pensamiento crítico y alfabetización digital.</li>
+                        <li>Identificar deepfakes maliciosos.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="inscripcion" class="py-16 md:py-24 bg-indigo-600 text-white text-center">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-6 leading-tight">
+                ¡Transforma tu Curiosidad en Habilidad!
+            </h2>
+            <p class="text-xl sm:text-2xl mb-10">
+                No esperes más para adentrarte en el fascinante mundo de la creación de deepfakes con IA.
+            </p>
+            <a href="#" class="bg-white text-indigo-600 font-bold py-4 px-10 rounded-lg text-xl hover:bg-slate-200 transition-colors shadow-xl inline-block">
+                Inscríbete al Curso Ahora
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-slate-300 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
+            <p>&copy; 2025 DeepFakePro Academy. Todos los derechos reservados.</p>
+            <div class="mt-4 space-x-4">
+                <a href="#" class="hover:text-white transition-colors">Política de Privacidad</a>
+                <a href="#" class="hover:text-white transition-colors">Términos y Condiciones</a>
+                <a href="#" class="hover:text-white transition-colors">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
